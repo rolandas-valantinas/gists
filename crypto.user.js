@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.4
 // @description  try to take over the world!
-// @author       You
+// @author       rolandas-valantinas
 // @include      *coinmarketcap.com/all/views/all/
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
 // @grant        none
