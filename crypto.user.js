@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Crypto filter
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @description  try to take over the world!
 // @author       rolandas-valantinas
 // @include      *coinmarketcap.com/all/views/all/
