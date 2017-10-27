@@ -1,16 +1,15 @@
 // ==UserScript==
-// @name         Hide ebay range listings
-// @namespace    #
-// @version      1.0
-// @description  Remove ebay listings that have range values
 // @author       Rolandas Valantinas
-// @supportURL   #
+// @description  Remove ebay listings that have range values
 // @include      *ebay.co.uk/sch*
-// @run-at       document-start
-// @grant        none
+// @include      *ebay.com/sch*
+// @name         Hide ebay range listings
+// @namespace    https://greasyfork.org/users/157178
+// @supportURL   https://github.com/rolandas-valantinas/gists/issues
+// @version      1.0
 // ==/UserScript==
 
-(function() {
+(function () {
     var interval = setInterval(hideListings, 2000);
 
     function hideListings() {
@@ -19,8 +18,6 @@
         for (var i = 0; i < price.length; i++) {
             price[i].parentNode.parentNode.parentNode.parentNode.remove();
         }
-
-        console.log('cleaning');
 
         if (price.length === 0) {
             clearInterval(interval);
