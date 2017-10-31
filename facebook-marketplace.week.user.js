@@ -6,7 +6,7 @@
 // @namespace    https://greasyfork.org/users/157178
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
 // @supportURL   https://github.com/rolandas-valantinas/gists/issues
-// @version      1.1
+// @version      1.2
 // ==/UserScript==
 
 (function () {
@@ -20,10 +20,11 @@
         if (items.length > 0) {
             attempts = 0;
             items.remove();
-            window.scrollTo(0, $(document).height());
         } else {
             attempts++;
         }
+
+        window.scrollTo(0, $(document).height());
 
         if (attempts > 5) {
             clearInterval(interval);
