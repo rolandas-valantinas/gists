@@ -5,7 +5,7 @@
 // @exclude      *facebook.com/marketplace/buying
 // @exclude      *facebook.com/marketplace/saved
 // @exclude      *facebook.com/marketplace/selling
-// @name         Facebook marketplace post date filter
+// @name         Facebook marketplace date filter
 // @namespace    https://greasyfork.org/users/157178
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
 // @supportURL   https://github.com/rolandas-valantinas/gists/issues
