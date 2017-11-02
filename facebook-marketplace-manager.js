@@ -14,15 +14,14 @@
 
 (function () {
     var mode = `
-        Mode 
-        <select id="fb-manager-mode">
+        Mode: <select id="fb-manager-mode">
           <option value="day">day</option>
           <option value="hours">hours</option>
           <option value="week">week</option>
         </select>
     `;
 
-    var hours = `<br/>Hours <select id="fb-manager-hours">`;
+    var hours = `<br/>Hours: <select id="fb-manager-hours">`;
 
     for (var i = 2; i < 24; i++) {
         hours += `<option value="${i}">${i}</option>`;
