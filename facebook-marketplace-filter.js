@@ -9,7 +9,7 @@
 // @namespace    https://greasyfork.org/users/157178
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
 // @supportURL   https://github.com/rolandas-valantinas/gists/issues
-// @version      1.0
+// @version      1.1
 // ==/UserScript==
 
 (function () {
@@ -45,6 +45,8 @@
     var attempts = 0;
 
     function removeItem() {
+        attempts++;
+
         var items = null;
         var selectVal = $('#fb-manager-mode').val();
 
@@ -71,8 +73,6 @@
                     if (!regex.test(text)) {
                         $(this).remove();
                         attempts = 0;
-                    } else {
-                        console.log(text);
                     }
                 }
             });
@@ -82,8 +82,6 @@
             if (items.length > 0) {
                 attempts = 0;
                 items.remove();
-            } else {
-                attempts++;
             }
         }
 
