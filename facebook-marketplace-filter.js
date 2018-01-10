@@ -93,7 +93,7 @@
     }
 
     function addButton() {
-        var categories = $('._3rne:contains("Categories")').parent();
+        var categories = $('._4v0x').parent();
 
         if (categories.length > 0) {
             categories.append(mode);
