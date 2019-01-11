@@ -67,7 +67,7 @@
             }
 
             $('._1oem').has('._uc9').each(function (index) {
-                var text = $(this).find('._uc9').text();
+                var text = $(this).find('._uc9').clone().children().remove().end().text();
 
                 if (!text.contains('minutes') && !text.contains('about an hour')) {
                     if (!regex.test(text)) {
