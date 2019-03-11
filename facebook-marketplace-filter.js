@@ -23,9 +23,11 @@
 
     var hours = `<br/>Hours: <select id="fb-manager-hours">`;
 
-    for (var i = 2; i < 24; i++) {
+    for (var i = 2; i < 23; i++) {
         hours += `<option value="${i}">${i}</option>`;
     }
+    
+    hours += `<option selected="selected" value="23">23</option>`;
 
     hours += `</select>`;
 
