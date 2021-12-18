@@ -1,6 +1,6 @@
 // ==UserScript==
 // @author       Rolandas Valantinas
-// @description  Trim BBCode in flickr
+// @description  Trim BBCode in flickr by only leaving image linking back to site
 // @include      *flickr.com/photos*
 // @name         Trim BBCode in flickr
 // @namespace    https://greasyfork.org/users/157178
