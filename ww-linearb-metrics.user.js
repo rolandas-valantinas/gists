@@ -1,8 +1,8 @@
 // ==UserScript==
+// @name         LinearB metrics comparison
 // @author       Rolandas Valantinas
 // @description  Add metrics WW is striving for
 // @include      *app.linearb.io/performance*
-// @name         LinearB metrics comparison
 // @namespace    https://greasyfork.org/users/157178
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
 // @supportURL   https://github.com/rolandas-valantinas/gists/issues
