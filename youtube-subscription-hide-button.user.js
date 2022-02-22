@@ -1,11 +1,11 @@
 // ==UserScript==
+// @name         Add hide button
 // @author       Rolandas Valantinas
 // @description  Add hide button to video blocks in subscriptions feed
 // @include      *youtube.com/feed/subscriptions*
-// @name         Add hide button
 // @namespace    https://greasyfork.org/users/157178
 // @supportURL   https://github.com/rolandas-valantinas/gists/issues
-// @version      1.0
+// @version      1.1
 // ==/UserScript==
 
 // Helper functions

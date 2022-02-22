@@ -1,12 +1,12 @@
 // ==UserScript==
+// @name         Hide ebay range listings
 // @author       Rolandas Valantinas
 // @description  Remove ebay listings that have range values
 // @include      *ebay.co.uk/sch*
 // @include      *ebay.com/sch*
-// @name         Hide ebay range listings
 // @namespace    https://greasyfork.org/users/157178
 // @supportURL   https://github.com/rolandas-valantinas/gists/issues
-// @version      1.1
+// @version      1.2
 // ==/UserScript==
 
 (function () {
