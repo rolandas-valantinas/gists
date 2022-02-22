@@ -6,7 +6,7 @@
 // @namespace    https://greasyfork.org/users/157178
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
 // @supportURL   https://github.com/rolandas-valantinas/gists/issues
-// @version      1.1
+// @version      1.2
 // ==/UserScript==
 
 (function () {
@@ -24,7 +24,7 @@
         appendData('CODING TIME', ' / <24h');
         appendData('PICKUP TIME', ' / <12h');
         appendData('REVIEW TIME', ' / <4h');
-        appendData('PRS OPENED', ' / <500');
+        appendData('PRS OPENED', ' / >2 per day');
         appendData('PR SIZE', ' / <500');
         appendData('REVIEW DEPTH', ' / 2-4');
         appendData('NEW CODE', ' / >70%');
