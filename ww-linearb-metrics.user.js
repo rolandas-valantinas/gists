@@ -15,7 +15,7 @@
     var attempts = 0;
 
     function appendData(title, value) {
-        $("p:contains('"+title+"')").first().parent().siblings().children().first().children().first().append(value);
+        $("p:contains('"+title+"')").first().parent().parent().find("p").filter(":nth-child(1)").append(value);
     };
 
     function addMetrics() {
