@@ -6,7 +6,7 @@
 // @namespace    https://greasyfork.org/users/157178
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
 // @supportURL   https://github.com/rolandas-valantinas/gists/issues
-// @version      1.4
+// @version      1.5
 // ==/UserScript==
 
 (function () {
@@ -15,7 +15,7 @@
     var attempts = 0;
 
     function appendData(title, value) {
-        $("p:contains('"+title+"')").first().parent().parent().find("p")[1].append(value);
+        $("p:contains('"+title+"')").first().parent().parent().find("p").eq(1).append(value);
     };
 
     function addMetrics() {
