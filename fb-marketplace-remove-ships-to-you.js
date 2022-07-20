@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Remove "Ship to you" FB marketplace listings
 // @author       Rolandas Valantinas
-// @description  Remove "Ship to you" FB marketplace listings
+// @description  Add button which if cliked removes all visible "Ship to you" FB marketplace listings
 // @include      *facebook.com/marketplace*
 // @namespace    https://greasyfork.org/users/157178
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
