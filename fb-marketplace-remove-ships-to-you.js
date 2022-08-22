@@ -6,7 +6,7 @@
 // @namespace    https://greasyfork.org/users/157178
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
 // @supportURL   https://github.com/rolandas-valantinas/gists/issues
-// @version      1.0
+// @version      1.0.1
 // ==/UserScript==
 
 (function () {
@@ -17,8 +17,8 @@
         var shipsToYou = $("a:contains('Ships to you')");
 
         for (var i = 0; i < shipsToYou.length; i++) {
-            console.log(shipsToYou[i].closest( "span" ).closest( "div.b3onmgus" ));
-            shipsToYou[i].closest( "span" ).closest( "div.b3onmgus" ).remove();
+            console.log(shipsToYou[i].closest( "span" ).closest( "div.lcfup58g" ));
+            shipsToYou[i].closest( "span" ).closest( "div.lcfup58g" ).remove();
         }
     }
 
