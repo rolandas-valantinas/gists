@@ -2,10 +2,10 @@
 // @name         Add hide button
 // @author       Rolandas Valantinas
 // @description  Add hide button to video blocks in subscriptions feed
-// @include      *youtube.com/feed/subscriptions*
+// @match        https://www.youtube.com/feed/subscriptions
 // @namespace    https://greasyfork.org/users/157178
 // @supportURL   https://github.com/rolandas-valantinas/gists/issues
-// @version      1.1
+// @version      1.2
 // ==/UserScript==
 
 // Helper functions
@@ -30,19 +30,22 @@ function autoHideClicked (e) {
 }
 
 (function () {
-    var i;
-    var videos = document.getElementsByTagName("ytd-grid-video-renderer");
+    setTimeout(() => {
+        var i;
+        var videos = document.getElementsByTagName("ytd-grid-video-renderer");
 
-    for (i = 0; i < videos.length; i++) {
-        var link = document.createElement('div');
-        link.innerHTML = '<a class="hide-button" href="javascript:;">hide</a>';
+        for (i = 0; i < videos.length; i++) {
+            var link = document.createElement('div');
+            link.innerHTML = '<a class="hide-button" href="javascript:;">hide</a>';
 
-        videos[i].appendChild(link);
-    }
+            videos[i].appendChild(link);
+        }
 
-    var hideButtons = document.getElementsByClassName('hide-button');
+        var hideButtons = document.getElementsByClassName('hide-button');
 
-    for (i = 0; i < hideButtons.length; i++) {
-        hideButtons[i].addEventListener('click', autoHideClicked, false);
-    }
+        for (i = 0; i < hideButtons.length; i++) {
+            hideButtons[i].addEventListener('click', autoHideClicked, false);
+        }
+    }, 3000);
+
 })();
