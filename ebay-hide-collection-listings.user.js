@@ -2,8 +2,7 @@
 // @name         Hide ebay collection listings
 // @author       Rolandas Valantinas
 // @description  Remove ebay listings that have "Free collection in person"
-// @include      *ebay.co.uk/sch*
-// @include      *ebay.com/sch*
+// @match        https://www.ebay.co.uk/sch*
 // @namespace    https://greasyfork.org/users/157178
 // @supportURL   https://github.com/rolandas-valantinas/gists/issues
 // @version      1.0
